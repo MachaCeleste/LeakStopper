@@ -1,6 +1,6 @@
 # LeakStopper
 
-**Leak Stopper** is a Chromium/Opera extension that allows users to store sensitive personal information and automatically redacts it on web pages. It helps protect privacy by replacing your personal info with a censor text before it is visible.
+**Leak Stopper** is a Chromium/Opera extension that allows users to input sensitive personal information and automatically redacts it on web pages. It helps protect privacy by replacing your personal info with a censor text before it is visible.
 
 ---
 
