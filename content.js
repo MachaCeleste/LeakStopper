@@ -39,7 +39,6 @@ function escapeRegex(str) {
 function firstPass() {
   redactTextNodes(document.body);
   removeShield();
-  enableDynamicRedaction();
 }
 
 function redactNode(node) {
