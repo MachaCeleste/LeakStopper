@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Leak Stopper</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 15px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2e004f, #7f0055);
+      color: #fff;
+      width: 300px;
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 1.2em;
+      color: #ffd6f0;
+    }
+
+    p {
+      margin: 5px 0 3px;
+      font-size: 0.9em;
+    }
+
+    input {
+      width: 100%;
+      padding: 6px 8px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: none;
+      background-color: #3b003b;
+      color: #fff;
+      font-size: 0.9em;
+    }
+
+    input:focus {
+      outline: 2px solid #ff69b4;
+    }
+
+    button {
+      width: 100%;
+      padding: 8px 0;
+      border: none;
+      border-radius: 6px;
+      background: #ff69b4;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 5px;
+    }
+
+    button:hover {
+      background: #ff85c1;
+    }
+
+    #status {
+      margin-top: 8px;
+      font-size: 0.85em;
+      text-align: center;
+      color: #ffd6f0;
+      min-height: 18px;
+    }
+
+    body {
+      max-height: 500px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h3>Enter Private Info to be Redacted<br>(Info saved locally, never shared)</h3>
+  
+  <p>First Name:</p>
+  <input id="firstname" />
+  
+  <p>Last Name:</p>
+  <input id="lastname" />
+  
+  <p>Email:</p>
+  <input id="email" />
+  
+  <p>Address:</p>
+  <input id="address" />
+  
+  <p>Phone:</p>
+  <input id="phone" />
+  
+  <p>City:</p>
+  <input id="city" />
+  
+  <p>Zip Code:</p>
+  <input id="zipcode" />
+  
+  <p>Zip+4:</p>
+  <input id="zip4" />
+  
+  <button id="save">Save</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
