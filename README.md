@@ -34,6 +34,5 @@
 
 - Input panels **WILL NOT BE REDACTED**, this will not prevent the user input from leaking
 - Redaction can only be applied to text fields, not images or other display methods
-- Redactions that happen to content after first load will show for a couple frames, so if new content shows on screen it will display for several frames before being "cought" by the censor
-- System is built for static content, not dynamic, but can still help prevent extended display of information
+- System is built for static content, not dynamic
   
